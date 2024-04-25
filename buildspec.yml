@@ -9,9 +9,9 @@ phases:
     commands:
       - echo Building Docker image...
       - docker build -t "gurkasathish/candycrush-clone:v1" .
-    artifacts:
-       files:
-          - '**/*'
+artifacts:
+    files:
+      - '**/*'
 
 
 
