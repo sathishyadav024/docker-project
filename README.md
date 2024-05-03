@@ -101,59 +101,23 @@ Create a project in codebuild and select it
 ![alt text](<Screenshot 2024-04-25 123228.png>)
 
 # Deploy
+select the deploy as a elasticbeanstalk
+
+select the region
+
+Select the application and environment that we created earlier in the elastic beanstalk
 
 ![alt text](<Screenshot 2024-04-25 123344.png>)
 
+Select on create pipeline. Than the pipeline has created.
 
+![alt text](<Screenshot 2024-04-25 123420.png>)
 
+The pipeline has executed successfully.
 
+![alt text](<Screenshot 2024-04-25 125958.png>)
 
+# Conclusion:
+By integrating AWS CodePipeline, CodeBuild, and Elastic Beanstalk, we've established an automated pipeline for building and deploying Dockerized applications. This enables us to deliver changes to our application quickly and reliably, while maintaining consistency and scalability throughout the deployment process.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Candy Crush in React
-
-
-### To Start This Project
-
-### `npm i`
-
-Install all the packages you need by running the command in your terminal.
-
-In the project directory, you can run:
-
-### `npm run start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The Project Is Completed.
